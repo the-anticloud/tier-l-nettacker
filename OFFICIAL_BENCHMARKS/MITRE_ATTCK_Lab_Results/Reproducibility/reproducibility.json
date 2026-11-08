@@ -1,0 +1,42 @@
+{
+  "benchmark": "MITRE_ATTCK_Lab_Results",
+  "project": "L_NETTACKER",
+  "timestamp": "2026-09-30T15:11:19.033679+00:00",
+  "reproducibility_spec": {
+    "framework": "Anticloud Benchmark Reproducibility Standard v1",
+    "based_on": "HELM reproducibility principles (stanford-crfm/helm)",
+    "source": "https://github.com/stanford-crfm/helm"
+  },
+  "environment": {
+    "platform": "win32",
+    "python_version": "3.12.10",
+    "os": "nt",
+    "working_dir": "E:\\fenta\\Downloads\\The Anticloud"
+  },
+  "inputs": {
+    "project_name": "L_NETTACKER",
+    "slug": "OWASP/Nettacker",
+    "commit": "cee419f8f815",
+    "tracked_files": 867,
+    "source_lines": 14317,
+    "licence": "Apache-2.0",
+    "size_mb": 10.99
+  },
+  "inputs_hash": "eb1f7f3ce58dea3274732e5355e5fc41864eb2b210ba69b5103ccc27465cd066",
+  "outputs": {
+    "results_file": "TIER_6_SECURITY_EVAL\\L_NETTACKER\\OFFICIAL_BENCHMARKS\\MITRE_ATTCK_Lab_Results\\results.json",
+    "results_sha256": "abe37899ea5472a744542c6adf54935aff4a38dbb9691654ff0b9206a5117066"
+  },
+  "reproduction_steps": [
+    "1. Clone Anticloud at commit HEAD",
+    "2. Ensure E:\\fenta\\Downloads\\The Anticloud is present",
+    "3. Run: python run_benchmarks_comprehensive.py",
+    "4. Run: python write_benchmark_subfolders.py",
+    "5. Run: python write_ledgers_repro_extra_benchmarks.py",
+    "6. Verify results_sha256 matches sha256(OFFICIAL_BENCHMARKS/MITRE_ATTCK_Lab_Results/results.json)"
+  ],
+  "hf_model": "distilbert-base-uncased",
+  "hf_source": "https://huggingface.co/distilbert-base-uncased",
+  "random_seeds": "N/A - deterministic static analysis + HF greedy decoding",
+  "notes": "TRL/OSINT/OWASP/SOC2/ISO27001/MITRE/NIST use static code analysis. HF uses live CPU inference."
+}

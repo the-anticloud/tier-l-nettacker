@@ -1,0 +1,14 @@
+{
+  "benchmark": "Lizard_Complexity_Lab_Results",
+  "project": "L_NETTACKER",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://github.com/terryyin/lizard",
+  "results": {
+    "framework": "Lizard \u2014 Multi-Language Complexity Analyzer",
+    "source": "https://github.com/terryyin/lizard",
+    "total_functions": null,
+    "avg_cyclomatic_complexity": null,
+    "status": "SKIP",
+    "raw_output": "================================================\n  NLOC    CCN   token  PARAM  length  location  \n------------------------------------------------\n       7      4     48      2      17 get_value@11-27@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\api\\core.py\n      72      1    284      0      78 mime_types@30-107@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\api\\core.py\n       9      4     60      1      18 get_file@110-127@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\api\\core.py\n       4      2     36      2      15 api_key_is_valid@130-144@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\api\\core.py\n      35      3    141      0      41 languages_to_country@147-187@E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\api\\core.py\n      11      2     27      0      17 graphs@190-206@E:\\fenta\\Downloads\\T"
+  }
+}

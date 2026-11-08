@@ -1,0 +1,38 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f8ef0df0-c1f2-5073-bc13-e50b70c9b933",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T21:18:07Z",
+    "component": {
+      "type": "application",
+      "name": "L_NETTACKER",
+      "version": "cee419f8f815",
+      "bom-ref": "pkg:generic/anticloud/L_NETTACKER@cee419f8f815",
+      "purl": "pkg:generic/anticloud/L_NETTACKER@cee419f8f815",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "cee419f8f8152419c9275bcb092707d8b270dc7b"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/OWASP/Nettacker.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": []
+}

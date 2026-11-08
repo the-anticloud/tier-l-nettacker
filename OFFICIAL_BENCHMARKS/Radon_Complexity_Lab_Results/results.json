@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "L_NETTACKER",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 2.5942028985507246
+    },
+    "complexity_grade": "A",
+    "complexity_score": 2.5942028985507246,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\config.py\n    M 29:4 ConfigBase.__init__ - A (4)\n    C 24:0 ConfigBase - A (3)\n    M 26:4 ConfigBase.as_dict - A (2)\n    F 13:0 version_info - A (1)\n    M 39:4 ConfigBase.__iter__ - A (1)\n    C 62:0 ApiConfig - A (1)\n    C 82:0 DbConfig - A (1)\n    C 118:0 PathConfig - A (1)\n    C 143:0 DefaultSettings - A (1)\n    C 199:0 Config - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\logger.py\n    M 68:4 Logger.verbose_event_info - A (4)\n    C 22:0 Logger - A (2)\n    M 40:4 Logger.verbose_mode_is_enabled - A (2)\n    M 47:4 Logger.info - A (2)\n    M 91:4 Logger.write - A (2)\n    M 104:4 Logger.success_event_info - A (2)\n    M 125:4 Logger.verbose_info - A (2)\n    M 146:4 Logger.warn - A (2)\n    F 201:0 get_logger - A (1)\n    C 8:0 TerminalCodes - A (1)\n    M 26:4 Logger.log - A (1)\n    M 30:4 Logger.run_from_api - A (1)\n    M 44:4 Logger.event_verbose_mode_is_enabled - A (1)\n    M 166:4 Logger.error - A (1)\n    M 185:4 Logger.write_to_api_console - A (1)\n    M 197:4 Logger.reset_color - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\main.py\n    F 6:0 run - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - ",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker.py - A (81.86)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\config.py - A (63.80)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\logger.py - A (66.40)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\nettacker\\main.py - A (100.00)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_6_SECURITY_EVAL\\L_NETTACKER\\UPSTREAM\\netta"
+  }
+}
